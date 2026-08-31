@@ -1,16 +1,12 @@
 {
-  "name": "opencode-relay",
+  "name": "janitor-vercel-gateway",
   "version": "1.0.0",
-  "description": "Relay proxy exposing an OpenAI-compatible endpoint that forwards to OpenCode Go",
-  "main": "opencode-relay.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node opencode-relay.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "node-fetch": "^2.7.0"
+    "express": "^5.1.0"
   }
 }
